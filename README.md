@@ -1,6 +1,16 @@
-# Write-TODO
-**Write-TODO** is a simple and elegant task management web app built with **React** and **Vite**. It lets users add, edit, and delete tasks efficiently using **React Hooks** and **Local Storage** for data persistence. Styled with **Tailwind CSS**, it offers a fast, modern, and responsive user experience.
+# React + Vite
 
-The app leverages React Hooks such as useState and useEffect for efficient state management and seamless interactivity. By using Local Storage, Write-TODO ensures that all user data persists even after the page is refreshed or the browser is closed. This means that tasks are safely stored on the user’s device without requiring any backend or external database, offering a completely client-side experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built with Vite, the project benefits from ultra-fast development and build times, which enhance the overall performance and responsiveness of the app. The use of Tailwind CSS adds a modern touch to the design — providing a clean, minimalistic, and fully responsive layout that adapts beautifully to any screen size. Tailwind’s utility-first approach also makes the interface easy to customize and maintain.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
